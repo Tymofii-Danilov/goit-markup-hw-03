@@ -1,0 +1,153 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+.cons-text,
+.team-person,
+.contact-item,
+.portfolio-item-name,
+.portfolio-text,
+.cage-text {
+  letter-spacing: 0.02em;
+}
+
+.cons-text,
+.team-role,
+.portfolio-text,
+.contact-item {
+  color: #434455;
+}
+
+.team-title,
+.portfolio-title {
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team-role {
+  letter-spacing: 0.02em;
+  font-size: 16px;
+}
+
+.hero-title {
+  color: #ffffff;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.team-title,
+.portfolio-title {
+  font-size: 36px;
+  line-height: 1.11;
+}
+
+.contact-item-title,
+.portfolio-item-title,
+.team-person,
+.cons-item-title {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.team-title,
+.portfolio-title,
+.contact-item-title,
+.portfolio-item-title,
+.team-person,
+.cons-item-title {
+  color: #2e2f42;
+}
+
+.hero-title,
+.team-title,
+.portfolio-title,
+.team-person,
+.team-role {
+  text-align: center;
+}
+
+.menu-item {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.menu-item:hover,
+.menu-item:focus,
+.contact-item:hover,
+.contact-item:focus {
+  color: #404bbf;
+}
+
+.contact {
+  font-style: normal;
+}
+
+.hero-cta {
+  background-color: #4d5ae5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  font-weight: 500;
+  color: #ffffff;
+  border: none;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.hero-cta:hover,
+.hero-cta:focus {
+  background-color: #404bbf;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-item {
+  background-color: #ffffff;
+}
+
+.logo-dark {
+  color: #2e2f42;
+}
+
+.logo-light,
+.cage-text {
+  color: #f4f4fd;
+}
+
+.cage {
+  letter-spacing: 0.03em;
+}
+
+.cage,
+.hero {
+  background-color: #2e2f42;
+}
