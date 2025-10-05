@@ -203,24 +203,31 @@ img {
   gap: 40px;
 }
 
+.menu-item {
+  padding: 24px 0;
+}
+
 .contact-list {
   display: flex;
   gap: 40px;
 }
 
-.hero .container {
+.hero {
   padding: 188px 0;
   text-align: center;
 }
 
 .hero-title {
   margin: 0 auto;
-  width: 496px;
+  max-width: 496px;
   margin-bottom: 48px;
 }
 
 .hero-cta {
+  display: block;
+  margin: 0 auto;
   border-radius: 4px;
+  min-width: 169px;
   padding: 16px 32px;
 }
 
@@ -231,6 +238,10 @@ img {
 .cons-list {
   display: flex;
   gap: 24px;
+}
+
+.cons-item {
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .cons-item-title {
@@ -247,7 +258,7 @@ img {
 }
 
 .team-data {
-  padding: 32px 16px;
+  padding: 32px 0px;
   text-align: center;
 }
 
@@ -265,7 +276,8 @@ img {
 
 .portfolio-list {
   display: flex;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -280,14 +292,21 @@ img {
   margin-bottom: 8px;
 }
 
-.cage-container {
-  display: flex;
-  flex-direction: column;
+.cage {
   padding: 100px 0;
 }
 
+.cage-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.cage-container .logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .cage-text {
-  margin-top: 16px;
   width: 264px;
 }
 
