@@ -13,7 +13,11 @@ a {
   color: inherit;
 }
 
+ul,
+ol,
 li {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -22,9 +26,14 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin: 0;
   padding: 0;
+}
+
+img {
+  display: block;
 }
 
 .cons-text,
@@ -171,6 +180,7 @@ h6 {
 
 .header {
   display: flex;
+  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -196,4 +206,100 @@ h6 {
 .contact-list {
   display: flex;
   gap: 40px;
+}
+
+.hero .container {
+  padding: 188px 0;
+  text-align: center;
+}
+
+.hero-title {
+  margin: 0 auto;
+  width: 496px;
+  margin-bottom: 48px;
+}
+
+.hero-cta {
+  border-radius: 4px;
+  padding: 16px 32px;
+}
+
+.section {
+  padding: 120px 0;
+}
+
+.cons-list {
+  display: flex;
+  gap: 24px;
+}
+
+.cons-item-title {
+  margin-bottom: 8px;
+}
+
+.team-title {
+  margin-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-data {
+  padding: 32px 16px;
+  text-align: center;
+}
+
+.team-person {
+  margin-bottom: 8px;
+}
+
+.team-item {
+  border-radius: 0 0 4px 4px;
+}
+
+.portfolio-title {
+  margin-bottom: 72px;
+}
+
+.portfolio-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.portfolio-data {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.portfolio-item-title {
+  margin-bottom: 8px;
+}
+
+.cage-container {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0;
+}
+
+.cage-text {
+  margin-top: 16px;
+  width: 264px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
