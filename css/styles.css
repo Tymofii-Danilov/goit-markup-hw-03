@@ -301,7 +301,8 @@ img {
   flex-direction: column;
 }
 
-.cage-container .logo {
+.cage-container .logo,
+.cage-container .logo-light {
   display: inline-block;
   margin-bottom: 16px;
 }
