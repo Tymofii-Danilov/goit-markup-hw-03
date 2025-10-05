@@ -301,8 +301,7 @@ img {
   flex-direction: column;
 }
 
-.cage-container .logo,
-.cage-container .logo-light {
+.footer-logo {
   display: inline-block;
   margin-bottom: 16px;
 }
